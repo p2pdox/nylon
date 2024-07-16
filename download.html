@@ -17,13 +17,13 @@
         }
         .panel {
             background-color: rgb(15, 15, 15);
-            border: 2px solid #800080; /* Lighter purple */
+            border: 2px solid #4B0082; /* Dark purple */
             border-radius: 15px;
-            width: 40%;
-            height: 60%; /* Increased height */
+            width: 30%; /* Smaller width */
+            height: 50%; /* Smaller height */
             text-align: center;
             padding: 20px;
-            box-shadow: 0 0 10px #800080; /* Lighter purple */
+            box-shadow: 0 0 10px #4B0082; /* Dark purple */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -35,19 +35,28 @@
             margin-top: 10px;
         }
         .version .number {
-            color: #800080; /* Lighter purple */
-            text-shadow: 0 0 5px #800080; /* Lighter purple */
+            color: #4B0082; /* Dark purple */
+            text-shadow: 0 0 5px #4B0082; /* Dark purple */
+        }
+        .developers {
+            margin-top: 10px;
+        }
+        .developers .name {
+            color: #4B0082; /* Dark purple */
+        }
+        .developers .comma {
+            color: white;
         }
         .download-button {
             background-color: rgb(10, 10, 10);
-            border: 2px solid #800080; /* Lighter purple */
+            border: 2px solid #4B0082; /* Dark purple */
             color: white;
-            padding: 10px 20px;
+            padding: 5px 10px; /* Smaller button */
             margin-top: 20px;
             border-radius: 5px;
             cursor: pointer;
             transition: transform 0.3s;
-            box-shadow: 0 0 5px #800080; /* Lighter purple */
+            box-shadow: 0 0 5px #4B0082; /* Dark purple */
             text-decoration: none; /* Remove underline */
             display: inline-block;
         }
@@ -62,7 +71,11 @@
         <div class="version">
             Version: <span class="number">1.0.0</span>
         </div>
+        <div class="developers">
+            Developers: <span class="name">Nyla</span><span class="comma">,</span> <span class="name">Stella</span><span class="comma">,</span> <span class="name">Avset</span>
+        </div>
         <a href="https://github.com/p2pdox/nylon/raw/main/Nylon%20Bitmoji%20Editor%20v%201.0.0.zip" class="download-button">Download</a>
     </div>
 </body>
 </html>
+
