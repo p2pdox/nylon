@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nylon Bitmoji Editor</title>
+    <style>
+        body {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .panel {
+            background-color: rgb(15, 15, 15);
+            border: 2px solid purple;
+            border-radius: 15px;
+            width: 40%;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 0 10px purple;
+        }
+        .panel h1 {
+            margin: 0;
+        }
+        .version {
+            margin-top: 10px;
+        }
+        .version .number {
+            color: white;
+            text-shadow: 0 0 5px purple;
+        }
+        .download-button {
+            background-color: rgb(10, 10, 10);
+            border: 2px solid purple;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s;
+            box-shadow: 0 0 5px purple;
+        }
+        .download-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <h1>Nylon Bitmoji Editor</h1>
+        <div class="version">
+            Version: <span class="number">1.0.0</span>
+        </div>
+        <a href="https://github.com/p2pdox/nylon/raw/main/Nylon%20Bitmoji%20Editor%20v%201.0.0.zip" class="download-button">Download</a>
+    </div>
+</body>
+</html>
 
